@@ -1,9 +1,9 @@
 ## Olá, sou Caio Cesar! 👋
 
-- 🔭 Trabalhando como administrador e gestor de uma empresa de usinagem.
-- 🌱 Estudando Segurança em DevOps.
-- 👯 Desejo colaborar com segurança em ambientes organizacionais.
-- 🤔 Procuro colegas que queiram estudar e compartilhar informações sobre programação e segurança.
+- 👨‍💼 Trabalhando como administrador e gestor de uma empresa de usinagem.
+- 📚 Estudando Segurança em DevOps.
+- 🔐 Desejo colaborar com segurança em ambientes organizacionais.
+- 👥 Procuro colegas que queiram estudar e compartilhar informações sobre programação e segurança.
 - 📫 Contate-me no email: caiocesar583.cc@gmail.com
 
 ![Anurag's Github Stats](https://github-readme-stats.vercel.app/api?username=devCaio00&show_icons=true&theme=dark)
