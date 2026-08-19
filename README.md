@@ -1,6 +1,6 @@
 ## Olá, sou Caio Cesar! 👋
 
-- 👨‍💼 Trabalhando como administrador e gestor de uma empresa de usinagem.
+- 👨‍💼 Trabalhando como Analista de RH na Stellantis.
 - 📚 DevOps.
 - 🔐 Desejo colaborar com segurança e organização em ambientes organizacionais.
 - 👥 Procuro colegas que queiram estudar e compartilhar informações sobre programação e segurança.
