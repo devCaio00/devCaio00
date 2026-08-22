@@ -1,0 +1,133 @@
+/* Variáveis para a paleta de cores (Tema Escuro Padrão) */
+:root {
+    --bg-cor: #121212;
+    --texto-cor: #ffffff;
+    --vermelho-primario: #e63946;
+    --vermelho-escuro: #a81c26;
+    --card-bg: #1e1e1e;
+}
+
+/* Variáveis para o Tema Claro */
+.tema-claro {
+    --bg-cor: #f4f4f9;
+    --texto-cor: #121212;
+    --card-bg: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-cor);
+    color: var(--texto-cor);
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Navegação */
+header {
+    background-color: var(--card-bg);
+    padding: 1rem 5%;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 10px rgba(230, 57, 70, 0.2);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: var(--texto-cor);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--vermelho-primario);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ponto-vermelho, .destaque-vermelho {
+    color: var(--vermelho-primario);
+}
+
+/* Seções */
+section {
+    padding: 5rem 5%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secao-destaque h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Botões */
+button {
+    cursor: pointer;
+    background: none;
+    border: 1px solid var(--vermelho-primario);
+    color: var(--texto-cor);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.btn-primario {
+    background-color: var(--vermelho-primario);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.btn-primario:hover {
+    background-color: var(--vermelho-escuro);
+}
+
+.btn-secundario {
+    color: var(--vermelho-primario);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Cards de Projeto */
+.grid-projetos {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    border-top: 4px solid var(--vermelho-primario);
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--card-bg);
+}
